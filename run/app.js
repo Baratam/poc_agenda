@@ -1,5 +1,5 @@
-angular.module('capapp.clarity.app', [
-  'capapp.clarity.module',
+angular.module('agenda.app', [
+  'agenda.module',
   'ui.bootstrap',
   'mobile-angular-ui',
   'directivesClarityApp'

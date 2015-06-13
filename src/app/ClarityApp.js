@@ -1,4 +1,4 @@
-angular.module('capapp.clarity.module', [
+angular.module('agenda.module', [
 	'ngRoute'
 ])
 

@@ -1,4 +1,4 @@
-angular.module('capapp.clarity.module', [
+angular.module('agenda.module', [
 	'ngRoute'
 ])
 
@@ -12,7 +12,7 @@ angular.module('capapp.clarity.module', [
         });
 	}]
 );
-angular.module('capapp.clarity.module')
+angular.module('agenda.module')
 
 .controller("agendaHomeContoller", ['$log', '$scope', '$location', '$routeParams', 'config', '$modal', function($log, $scope, $location, $routeParams, config, $modal){
 	$log.debug("init agendaHomeContoller");
@@ -147,7 +147,7 @@ angular.module('mobile-angular-ui.directives.overlay', []).directive('overlay', 
     };
   }
 ]);
-angular.module('capapp.clarity.module')
+angular.module('agenda.module')
   .controller('ratingCtrl', ['$scope', function($scope) {
     $scope.rating = 5;
     $scope.rateFunction = function(rating) {

@@ -1,4 +1,4 @@
-angular.module('capapp.clarity.module')
+angular.module('agenda.module')
 
 .controller("agendaHomeContoller", function($log, $scope, $location, $routeParams, config, $modal){
 	$log.debug("init agendaHomeContoller");

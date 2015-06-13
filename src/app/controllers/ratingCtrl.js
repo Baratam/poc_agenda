@@ -1,4 +1,4 @@
-angular.module('capapp.clarity.module')
+angular.module('agenda.module')
   .controller('ratingCtrl', function($scope) {
     $scope.rating = 5;
     $scope.rateFunction = function(rating) {
