@@ -9,6 +9,14 @@ angular.module('agenda.module', [
 		.when('/agenda/agendaHome', {
             templateUrl: 'views/agenda/agendaHome.html',
             controller: 'agendaHomeContoller'
+        })
+		.when('/agenda/pageConstruction', {
+            templateUrl: 'views/agenda/pageConstruction.html',
+            controller: 'agendaHomeContoller'
+        })
+		.when('/news/market', {
+            templateUrl: 'views/agenda/marketNews.html',
+            controller: 'collapseDemoCtrl'
         });
 	}]
 );
@@ -51,6 +59,12 @@ angular.module('agenda.module')
 }]
 
 );
+angular.module('agenda.module')
+.controller('collapseDemoCtrl', ['$scope', function ($scope) {
+  $scope.isCollapsedJune = false;
+   $scope.isCollapsedMay = false;
+    $scope.isCollapsedApril = false;
+}]);
 angular.module('directivesClarityApp',[])
 
 .directive('numbersOnly', function(){
